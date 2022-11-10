@@ -12,9 +12,15 @@ jobs:
     runs-on: windows-latest
     
     steps:
+      - name: Upload DocFX packages
+        uses: actions/upload-artifact@v3
+        with:
+          name: docfx_site
+          path: ${{ github.workspace }}\TestApplication\_site
+
       - uses: actions/upload-pages-artifact@v1
         with:
-          path: ./TestApplication/_site
+          path: TestApplication/_site
           
   deploy:
    needs: build
