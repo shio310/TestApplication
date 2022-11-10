@@ -15,12 +15,6 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 1
-
-      - name: DocFX
-        shell: cmd
-        run: |
-          choco install docfx -y
-          docfx docfx\docfx.json
           
       - name: Upload DocFX packages
         uses: actions/upload-artifact@v2
