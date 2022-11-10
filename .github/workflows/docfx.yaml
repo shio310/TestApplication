@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/upload-pages-artifact@v1
         with:
-          path: TestApplication/_site
+          path: ./TestApplication/_site
           
   deploy:
    needs: build
