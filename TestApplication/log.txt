@@ -1,0 +1,1 @@
+{"message":"No metadata is generated for TestApplication.","source":"MetadataCommand.ExtractMetadata","date_time":"2022-11-10T07:49:01.6579897Z","message_severity":"warning","correlation_id":"A299C2E1-096A-4722-B6F4-F6BA93D1FEE2.1.1.11"}
