@@ -9,10 +9,22 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "h+geaBLrKDYzHYlyaoO8aBKt/PiNEFGOsFKWTKzFzzU="
+          "hash": "w8d1EpB2lW1D3UCMrWZ0ksbZYHNg9tW3sG1gvOi2q60="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "53cDPdjyKTmYSaPMwcMYYJO/bYpeY21eGi/JWyVQBqE="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -24,7 +36,7 @@
           "hash": "nzj3nZSTldqmGMlu3nZJJIODlMZRm0QzNxHM0vuKyTU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -48,7 +60,7 @@
           "hash": "uQiOLckxmpguAW0I3wZ9MSJZhXIpk/qTLoh07UkkF3s="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -57,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "4TEgJl9AhuPIoP9weFbgLuRejAX7WRouRdNP0UiX0nY="
+          "hash": "WSuRrYiGwKKMbtdG9z8W9fXmLoCyTnGg9AxbPKLXm2Y="
         }
       },
       "is_incremental": false,
@@ -67,17 +79,19 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Disable incremental build by force rebuild option.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ForceRebuild"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 3
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
@@ -90,8 +104,8 @@
     },
     {
       "status": {
-        "can_incremental": true,
-        "details": "Can support incremental post processing.",
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0

@@ -16,5 +16,10 @@ namespace TestApplication
         {
             Debug.Write("abc");
         }
+
+        public void error()
+        {
+            Debug.Write("");
+        }
     }
 }
