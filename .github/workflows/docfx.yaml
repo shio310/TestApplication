@@ -16,7 +16,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: docfx_site
-          path: ${{ github.workspace }}\TestApplication\_site
+          path: ${{ github.workspace }}\_site
 
       - uses: actions/upload-pages-artifact@v1
         with:
