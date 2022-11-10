@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   build:
@@ -11,11 +12,6 @@ jobs:
     runs-on: windows-latest
     
     steps:
-      # - name: Publish Documentation on GitHub Pages
-        # uses: peaceiris/actions-gh-pages@v3
-        # with:
-        #   github_token: ${{ secrets.GITHUB_TOKEN }}
-        #   publish_dir: TestApplication/_site
       - uses: actions/upload-pages-artifact@v1
         with:
           path: TestApplication/_site
